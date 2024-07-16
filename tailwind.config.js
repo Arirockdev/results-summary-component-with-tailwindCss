@@ -3,9 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        'fontFamily': ["Hanken Grotesk"]
-      } 
+      // fontFamily: {
+      //   fontF: ["Hanken Grotesk"]
+      // } 
     },
 
     colors: {

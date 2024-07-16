@@ -13,7 +13,7 @@ i used api fetch to write in the dom all data from json archive.
   
 thanks
 
-[This is the link to the site deploy]()
+[This is the link to the site deploy](https://arirockdev.github.io/my-results-summary-component-with-tailwindCss/)
 
 
 **Have fun building!** 🚀
