@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* // Font Family */
+
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    src: url("/src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf"); 
+  }
+  
+
+
+  :root{
+    /* // Colors */
+
+  /* // Primary */
+
+  --light-red: rgb(255, 87, 87);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  
+  --light-red-alpha: rgba(248, 181, 181, 0.12);
+ --orange-yellow-alpha: rgba(255, 176, 31, 0.04);
+ --green-teal-alpha: rgba(0, 189, 145, 0.07);
+ --cobalt-blue-alpha: rgba(17, 37, 212, 0.06);
+
+
+  /* // Gradients */
+
+  --light-slate-blue-background: hsl(252, 100%, 67%);
+  --light-royal-blue-background: #2e2be9;
+
+  --violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+  /* // Neutral */
+  --gray: hsla(0, 5%, 66%, 1);
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(248, 100%, 84%, 0.836);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+  }
+
+.div-result{
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    
+}
+
+.circle {
+   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.btn:hover {
+ background: linear-gradient(hsla(256, 72%, 46%, 0.79), hsla(241, 72%, 46%));
+
+}
+
+}
