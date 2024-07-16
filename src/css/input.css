@@ -3,17 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  /* // Font Family */
-
-  @font-face {
-    font-family: 'Hanken Grotesk';
-    src: url(../src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf); 
-  }
   
-
 
   :root{
     /* // Colors */
+
+    --font-family: "Hanken Grotesk";
 
   /* // Primary */
 
@@ -58,5 +53,7 @@
  background: linear-gradient(hsla(256, 72%, 46%, 0.79), hsla(241, 72%, 46%));
 
 }
+
+
 
 }

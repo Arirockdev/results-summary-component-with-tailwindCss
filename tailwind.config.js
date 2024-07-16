@@ -2,10 +2,12 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
-    fontFamily:{
-      hanken: ["Hanken Grotesk"]
+    extend: {
+      fontFamily: {
+        'fontFamily': ["Hanken Grotesk"]
+      } 
     },
+
     colors: {
     //* primary
       lightRed: 'var(--light-red)',

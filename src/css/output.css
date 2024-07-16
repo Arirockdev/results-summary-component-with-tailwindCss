@@ -446,16 +446,9 @@ video {
   display: none;
 }
 
-/* // Font Family */
-
-@font-face {
-  font-family: 'Hanken Grotesk';
-
-  src: url("/src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
-}
-
 :root{
   /* // Colors */
+  --font-family: "Hanken Grotesk";
   /* // Primary */
   --light-red: rgb(255, 87, 87);
   --orange-yellow: hsl(39, 100%, 56%);
@@ -2121,7 +2114,7 @@ video {
   vertical-align: super;
 }
 
-.font-hanken {
+.font-fontFamily {
   font-family: Hanken Grotesk;
 }
 
