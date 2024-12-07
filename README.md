@@ -15,7 +15,7 @@
 ## Proyecto demostration
 
 
-(Acá va el gif animado)
+![](./src/assets/images/video-ezgif.com-video-to-gif-converter.gif)
 
 
 
@@ -25,7 +25,7 @@
 
 
 
-#### Live demo project [here](https://arirockdev.github.io/my-results-summary-component-with-tailwindCss/)
+#### Live demo project [here](https://arirockdev.github.io/results-summary-component-with-tailwindCss/)
 If you want to try:
 
 1. Clone the repository
